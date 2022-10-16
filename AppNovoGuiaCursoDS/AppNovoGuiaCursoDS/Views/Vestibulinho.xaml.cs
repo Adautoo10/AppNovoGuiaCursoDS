@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace AppNovoGuiaCursoDS.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -16,5 +17,18 @@ namespace AppNovoGuiaCursoDS.Views
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Device.OpenUri(new Uri("http://www.vestibulinhoetec.com.br"));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+        }
+
     }
 }
