@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNovoGuiaCursoDS.UWP", "AppNovoGuiaCursoDS\AppNovoGuiaCursoDS.UWP\AppNovoGuiaCursoDS.UWP.csproj", "{AB831078-F861-4E5C-B542-81A86EE236ED}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNovoGuiaCursoDS.Android", "AppNovoGuiaCursoDS\AppNovoGuiaCursoDS.Android\AppNovoGuiaCursoDS.Android.csproj", "{52361F21-E5BD-4F9E-A4E6-CC4BFC33E759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNovoGuiaCursoDS", "AppNovoGuiaCursoDS\AppNovoGuiaCursoDS\AppNovoGuiaCursoDS.csproj", "{D9AB0295-D9D0-4215-8398-70ED0307239E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppNovoGuiaCursoDS", "AppNovoGuiaCursoDS\AppNovoGuiaCursoDS\AppNovoGuiaCursoDS.csproj", "{D9AB0295-D9D0-4215-8398-70ED0307239E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,30 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|Any CPU.Build.0 = Debug|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|Any CPU.Deploy.0 = Debug|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|ARM.ActiveCfg = Debug|ARM
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|ARM.Build.0 = Debug|ARM
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|ARM.Deploy.0 = Debug|ARM
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|x64.ActiveCfg = Debug|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|x64.Build.0 = Debug|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|x64.Deploy.0 = Debug|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|x86.ActiveCfg = Debug|x86
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|x86.Build.0 = Debug|x86
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Debug|x86.Deploy.0 = Debug|x86
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|Any CPU.ActiveCfg = Release|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|Any CPU.Build.0 = Release|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|Any CPU.Deploy.0 = Release|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|ARM.ActiveCfg = Release|ARM
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|ARM.Build.0 = Release|ARM
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|ARM.Deploy.0 = Release|ARM
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|x64.ActiveCfg = Release|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|x64.Build.0 = Release|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|x64.Deploy.0 = Release|x64
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|x86.ActiveCfg = Release|x86
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|x86.Build.0 = Release|x86
-		{AB831078-F861-4E5C-B542-81A86EE236ED}.Release|x86.Deploy.0 = Release|x86
 		{52361F21-E5BD-4F9E-A4E6-CC4BFC33E759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52361F21-E5BD-4F9E-A4E6-CC4BFC33E759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52361F21-E5BD-4F9E-A4E6-CC4BFC33E759}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
